@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Fondos.css">
+</head>
+<!--Solicita al usuario un número.
+Calcula el factorial de ese número utilizando un bucle while.-->
+<body class="fondocowboy11">
+    <div class="mi-titulo" style="text-align: center;">
+        <h1 style="color:rgb(253, 252, 252); text-align:center;">Ejercicios: Algoritmos en Javascript</h1>
+    </div>
+    <!--El siguiente codigo me ayuda a generar la imagen central pero la clase dede estar ubicada en el css,
+    en este caso en el style.css-->
+    <div class="cowboy11" style="text-align: center;">
+        <p style="text-align: justify;"><strong></strong></p>
+    </div>
+    <!--El siguiente código me ayuda a enlazar las diferentes páginas html entre si-->
+    <div class="container"style="display: flex; justify-content: space-between;">
+       <ul style="color: white;">
+        <button class="boton1" style="color:white ;"> <li style="color: white;"><a href="Inicio.html">Inicio</a></li></button>
+        <button class="boton2"><li><a href="1.contador simple con while.html">1. Contador simple</a></li></button>
+        <button class="boton3"><li><a href="1.1 contador simple con while y contenedor.html">1.1 Contador simple con while </a></li></button>
+        <button class="boton4"><li><a href="1. 2 Contador simple con if y for.html">1.2 Contador simple if y for</a></li></button>
+        <button class="boton5"><li><a href="2. Tabla de multiplicación.html">2. Tabla de multiplicación</a></li></button>
+        <button class="boton6"><li><a href="3. Suma de números.html">3. Suma de números</a></li></button>
+        <button class="boton7"><li><a href="4. factorial.html">4. factorial</a></li></button>
+        <button class="boton8"><li><a href="5. numeros pares.html">5. números pares</a></li></button>
+        <button class="boton9"><li><a href="6. suma de digitos.html">6. suma de digitos</a></li></button>
+        <button class="boton10"><li><a href="7. secuencia de Fibonacci.html">7. Fibonacci</a></li></button>
+       </ul>
+    </div>
+    <h3 style="color: white;text-align: center;">Calcula el factorial de un número utilizando un bucle while </h3>
+    <script>
+let a=parseInt(prompt("Ingresa un número para realizar la operación factorial: "));
+let b = 1;
+let c = 1;
+let d = 0;
+document.write('<div style="color: yellow; text-align: center;">' + 'El número ingresado fue: ' + a + '<br>'+
+'por lo tanto: ')
+while (b < a) {
+    d = c*(b + 1);
+    document.write('<div style="color: yellow; text-align: center;">'+ c + 'x' + (b+1) + '=' + d + '<br>');
+    b+=1;
+    c = d;
+}
+document.write('<div style="color: yellow; text-align: center;justify">'+'El factorial de ' + a + 
+    ' es igual a ' + c)
+    </script>
+</body>
+</html>

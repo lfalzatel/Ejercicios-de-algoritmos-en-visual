@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Fondos.css">
+</head>
+<!--Solicita al usuario un número.
+Imprime los primeros n números de la secuencia de Fibonacci utilizando un bucle while.-->
+<body class="fondorostro6">
+    <div class="mi-titulo" style="text-align: center;">
+        <h1 style="color:rgb(253, 252, 252); text-align:center;">Ejercicios: Algoritmos en Javascript</h1>
+    </div>
+    <!--El siguiente codigo me ayuda a generar la imagen central pero la clase dede estar ubicada en el css,
+    en este caso en el style.css-->
+    <div class="rostro6" style="text-align: center;">
+        <p style="text-align: justify;"><strong></strong></p>
+    </div>
+    <!--El siguiente código me ayuda a enlazar las diferentes páginas html entre si-->
+    <div class="container"style="display: flex; justify-content: space-between;">
+       <ul style="color: white;">
+        <button class="boton1" style="color:white ;"> <li style="color: white;"><a href="Inicio.html">Inicio</a></li></button>
+        <button class="boton2"><li><a href="1.contador simple con while.html">1. Contador simple</a></li></button>
+        <button class="boton3"><li><a href="1.1 contador simple con while y contenedor.html">1.1 Contador simple con while </a></li></button>
+        <button class="boton4"><li><a href="1. 2 Contador simple con if y for.html">1.2 Contador simple if y for</a></li></button>
+        <button class="boton5"><li><a href="2. Tabla de multiplicación.html">2. Tabla de multiplicación</a></li></button>
+        <button class="boton6"><li><a href="3. Suma de números.html">3. Suma de números</a></li></button>
+        <button class="boton7"><li><a href="4. factorial.html">4. factorial</a></li></button>
+        <button class="boton8"><li><a href="5. numeros pares.html">5. números pares</a></li></button>
+        <button class="boton9"><li><a href="6. suma de digitos.html">6. suma de digitos</a></li></button>
+        <button class="boton10"><li><a href="7. secuencia de Fibonacci.html">7. Fibonacci</a></li></button>
+       </ul>
+    </div>
+    <h3 style="color:black;text-align: center;">
+        Imprime los primeros n números de la secuencia de Fibonacci utilizando un bucle while</h3>
+    <script>
+// Solicitar al usuario que ingrese un número entero positivo
+let num=parseInt(prompt("Ingrese un entero positivo con 2 o más números: "));
+let suma = 0;
+let digito = 0;
+    if(num<=0)
+document.write('<div style="text-align: center;">'+ 'El número ingresado no es positivo <br>')
+    else
+// Inicializar la suma de los dígitos
+// Calcular la suma de los dígitos utilizando un bucle while
+document.write('<div style="text-align: center;">'+'El número ingresado: ' + num + '<br>')
+document.write('<div style="text-align: center;">' + 'Los digitos a sumar son: <br>')
+while (num >0) {
+    // Obtener el último dígito del número
+    let digito = num % 10;
+    document.write(digito + '<br>') 
+    // Sumar el último dígito a la suma total
+    suma+= digito;
+    // Eliminar el último dígito del número
+    num =Math.floor(num / 10);
+    
+}   
+
+document.write('<div style="text-align: center;">' + 'La suma de los digitos es: '+suma)
+    </script>
+</body>
+</html>

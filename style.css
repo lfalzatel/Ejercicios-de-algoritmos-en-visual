@@ -1,0 +1,261 @@
+
+
+ul{/* Eliminar las viñetas de la lista */
+    list-style-type: none;
+    padding: 0; /* Opcional: elimina el relleno interno de la lista */
+    margin: 0; /* Opcional: elimina el margen externo de la lista */
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    justify-content: flex-end;
+}
+/* Eliminar las viñetas de la lista dentro del botón 1 */
+/*este comando funciona cuando se tiene lo siguiente:
+<div class="container">
+        <button class="boton1" style="color:white ;"> <li style="color: white;"><a href="Inicio.html">Inicio</a></li></button>
+        <button class="boton2">Botón Secundario</button>
+    </div>*/
+.boton1 li {
+    list-style-type: none;
+    padding: 0; /* Opcional: elimina el relleno interno */
+    margin: 0; /* Opcional: elimina el margen externo */
+}
+
+#column-container{
+    column-count: 3; /* Número de columnas */
+    column-gap: 100px; /* Espacio entre columnas */
+    width: 10%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+/* Cambiar el color del enlace en el botón a blanco */
+.container .boton1 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton2 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton3 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton4 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton5 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton6 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton7 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .botonA a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton8 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .botonB a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .botonC a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton9 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.container .boton10 a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.mi-titulo {
+    width: 500px;
+    height: 70px;
+    background-image: url(Img/anime\ 1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Establece la posición absoluta */
+    top: 0.5; /* Posiciona en la parte superior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta la posición horizontal para centrar */
+}
+
+.boton1 {
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 1250px;
+    }
+    
+.boton2 {
+        color: white;
+        background-image: url(Img/Anime\ 3.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 1115px;
+    }
+.boton3 {
+        color: white;
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 910px;
+    }
+.boton4 {
+        color: white;
+        background-image: url(Img/Anime\ 3.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 730px;
+    }
+.boton5 {
+        color: white;
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 560px;
+    }
+.boton6 {
+        color: white;
+        background-image: url(Img/Anime\ 3.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 410px;
+    }
+.boton7 {
+        color: white;
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 115px;
+        right: 1220px;
+    }
+.botonA {
+        color: white;
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 330px;
+    }
+.boton8 {
+        color: white;
+        background-image: url(Img/Anime\ 3.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 115px;
+        right: 1095px;
+    }   
+.botonB {
+        color: white;
+        background-image: url(Img/Anime\ 3.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 205px;
+    }   
+.botonC {
+        color: white;
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 80px;
+    }   
+.boton9 {
+        color: white;
+        background-image: url(Img/Anime\ 2.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 115px;
+        right: 965px;
+    }   
+.boton10 {
+        color: white;
+        background-image: url(Img/Anime\ 3.jpg);
+        border: 3px solid black;
+        border-radius: 90px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 115px;
+        right: 870px;
+    }   
+    h3 {
+        margin-top: 130px; /* Ajusta la distancia entre los botones y el título */
+        text-align: left;
+    }
